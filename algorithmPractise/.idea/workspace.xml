@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="algorithmPractise" targetName="algorithmPractise" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86ce22b5-3957-4e61-8d8e-c17355ca39fd" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cJSON" />
+  </component>
+  <component name="ProjectId" id="1mOyjlpou4fDHZ4Vo2WxdQYimBO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Self_Projects\algorithmPractise\JZOffer\tree" />
+      <recent name="E:\Projects\algorithmPractise\JZOF" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="algorithmPractise" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmPractise" TARGET_NAME="algorithmPractise" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmPractise" RUN_TARGET_NAME="algorithmPractise">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86ce22b5-3957-4e61-8d8e-c17355ca39fd" name="Default Changelist" comment="" />
+      <created>1609379069501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609379069501</updated>
+      <workItem from="1609379073779" duration="18008000" />
+      <workItem from="1610339919752" duration="1768000" />
+      <workItem from="1610514153317" duration="2037000" />
+      <workItem from="1610618444377" duration="3000" />
+      <workItem from="1611227460436" duration="3808000" />
+      <workItem from="1611290792366" duration="776000" />
+      <workItem from="1612264828296" duration="3679000" />
+      <workItem from="1612278647365" duration="427000" />
+      <workItem from="1614564330491" duration="59000" />
+      <workItem from="1614564414861" duration="590000" />
+      <workItem from="1614565597379" duration="1572000" />
+      <workItem from="1614663628955" duration="316000" />
+      <workItem from="1614664103860" duration="80000" />
+      <workItem from="1614664516418" duration="191000" />
+      <workItem from="1615438683669" duration="720000" />
+      <workItem from="1615980958907" duration="388000" />
+      <workItem from="1616044357431" duration="1704000" />
+      <workItem from="1616571947808" duration="443000" />
+      <workItem from="1618881107612" duration="1679000" />
+      <workItem from="1618897473789" duration="321000" />
+      <workItem from="1618899905482" duration="650000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/cJSON" />
+    </ignored-roots>
+  </component>
+</project>
