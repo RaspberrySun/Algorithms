@@ -1,4 +1,4 @@
-# Install script for directory: E:/Projects/Algorithms/algorithmPractise/JZOffer/tree
+# Install script for directory: E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

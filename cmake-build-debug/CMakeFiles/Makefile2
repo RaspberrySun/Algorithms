@@ -49,19 +49,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\CLion\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = "D:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = D:\CLion\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = "D:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Projects\Algorithms
+CMAKE_SOURCE_DIR = E:\Cpp_Projects\Algorithms
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Projects\Algorithms\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Cpp_Projects\Algorithms\cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/Algorithms.dir
@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = E:\Projects\Algorithms\cmake-build-debug
 CMakeFiles/Algorithms.dir/all:
 	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/depend
 	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Projects\Algorithms\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Algorithms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Algorithms"
 .PHONY : CMakeFiles/Algorithms.dir/all
 
 # Include target in all.
@@ -80,9 +80,9 @@ all: CMakeFiles/Algorithms.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Algorithms.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Algorithms\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Algorithms.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Algorithms\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Algorithms.dir/rule
 
 # Convenience name for target.
@@ -107,6 +107,7 @@ clean: CMakeFiles/Algorithms.dir/clean
 algorithmPractise/JZOffer/tree/all: algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/all
 algorithmPractise/JZOffer/tree/all: algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/all
 algorithmPractise/JZOffer/tree/all: algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/all
+algorithmPractise/JZOffer/tree/all: algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/all
 algorithmPractise/JZOffer/tree/all: algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/all
 algorithmPractise/JZOffer/tree/all: algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/all
 
@@ -116,6 +117,7 @@ algorithmPractise/JZOffer/tree/all: algorithmPractise/JZOffer/tree/CMakeFiles/mi
 algorithmPractise/JZOffer/tree/clean: algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/clean
 algorithmPractise/JZOffer/tree/clean: algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/clean
 algorithmPractise/JZOffer/tree/clean: algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/clean
+algorithmPractise/JZOffer/tree/clean: algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/clean
 algorithmPractise/JZOffer/tree/clean: algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/clean
 algorithmPractise/JZOffer/tree/clean: algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/clean
 
@@ -133,7 +135,7 @@ algorithmPractise/JZOffer/tree/preinstall:
 algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/all:
 	$(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\rebuildTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/depend
 	$(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\rebuildTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Projects\Algorithms\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target rebuildTree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target rebuildTree"
 .PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/all
 
 # Include target in all.
@@ -143,9 +145,9 @@ all: algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/all
 
 # Build rule for subdir invocation for target.
 algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Algorithms\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Algorithms\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles 0
 .PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/rule
 
 # Convenience name for target.
@@ -170,7 +172,7 @@ clean: algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/clean
 algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/all:
 	$(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSymmetric.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/depend
 	$(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSymmetric.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Projects\Algorithms\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target isSymmetric"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target isSymmetric"
 .PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/all
 
 # Include target in all.
@@ -180,9 +182,9 @@ all: algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/all
 
 # Build rule for subdir invocation for target.
 algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Algorithms\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Algorithms\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles 0
 .PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/rule
 
 # Convenience name for target.
@@ -207,7 +209,7 @@ clean: algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/clean
 algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/all:
 	$(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSubTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/depend
 	$(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSubTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Projects\Algorithms\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target isSubTree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target isSubTree"
 .PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/all
 
 # Include target in all.
@@ -217,9 +219,9 @@ all: algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/all
 
 # Build rule for subdir invocation for target.
 algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Algorithms\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Algorithms\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles 0
 .PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/rule
 
 # Convenience name for target.
@@ -238,13 +240,50 @@ clean: algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir
+
+# All Build rule for target.
+algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/all:
+	$(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\maxDepth.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/depend
+	$(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\maxDepth.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target maxDepth"
+.PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/all
+
+# Include target in all.
+all: algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles 0
+.PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/rule
+
+# Convenience name for target.
+maxDepth: algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/rule
+
+.PHONY : maxDepth
+
+# clean rule for target.
+algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/clean:
+	$(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\maxDepth.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/clean
+.PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/clean
+
+# clean rule for target.
+clean: algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir
 
 # All Build rule for target.
 algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/all:
 	$(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\kthLargest.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/depend
 	$(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\kthLargest.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Projects\Algorithms\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target kthLargest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target kthLargest"
 .PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/all
 
 # Include target in all.
@@ -254,9 +293,9 @@ all: algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/all
 
 # Build rule for subdir invocation for target.
 algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Algorithms\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Algorithms\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles 0
 .PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/rule
 
 # Convenience name for target.
@@ -281,7 +320,7 @@ clean: algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/clean
 algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/all:
 	$(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\mirrorTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/depend
 	$(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\mirrorTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Projects\Algorithms\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target mirrorTree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target mirrorTree"
 .PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/all
 
 # Include target in all.
@@ -291,9 +330,9 @@ all: algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/all
 
 # Build rule for subdir invocation for target.
 algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Algorithms\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Algorithms\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles 0
 .PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/rule
 
 # Convenience name for target.

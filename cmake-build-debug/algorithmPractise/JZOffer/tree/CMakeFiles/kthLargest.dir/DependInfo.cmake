@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Projects/Algorithms/algorithmPractise/JZOffer/tree/kthLargest.cpp" "E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/kthLargest.cpp.obj"
+  "E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/kthLargest.cpp" "E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/kthLargest.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\CLion\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = "D:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = D:\CLion\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = "D:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Projects\Algorithms
+CMAKE_SOURCE_DIR = E:\Cpp_Projects\Algorithms
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Projects\Algorithms\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Cpp_Projects\Algorithms\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = E:\Projects\Algorithms\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	D:\CLion\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	"D:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	D:\CLion\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,14 +79,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Algorithms\cmake-build-debug\CMakeFiles E:\Projects\Algorithms\cmake-build-debug\algorithmPractise\JZOffer\tree\CMakeFiles\progress.marks
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Algorithms\cmake-build-debug\CMakeFiles 0
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles E:\Cpp_Projects\Algorithms\cmake-build-debug\algorithmPractise\JZOffer\tree\CMakeFiles\progress.marks
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp_Projects\Algorithms\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/clean
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,22 +96,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/preinstall
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/preinstall
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/rule:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/rule
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/rule
 .PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/rule
 
 # Convenience name for target.
@@ -121,12 +121,12 @@ rebuildTree: algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/rule
 
 # fast build rule for target.
 rebuildTree/fast:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\rebuildTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/build
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\rebuildTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/build
 .PHONY : rebuildTree/fast
 
 # Convenience name for target.
 algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/rule:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/rule
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/rule
 .PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/rule
 
 # Convenience name for target.
@@ -136,12 +136,12 @@ isSymmetric: algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/rule
 
 # fast build rule for target.
 isSymmetric/fast:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSymmetric.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/build
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSymmetric.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/build
 .PHONY : isSymmetric/fast
 
 # Convenience name for target.
 algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/rule:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/rule
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/rule
 .PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/rule
 
 # Convenience name for target.
@@ -151,12 +151,27 @@ isSubTree: algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/rule
 
 # fast build rule for target.
 isSubTree/fast:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSubTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/build
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSubTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/build
 .PHONY : isSubTree/fast
 
 # Convenience name for target.
+algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/rule:
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/rule
+.PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/rule
+
+# Convenience name for target.
+maxDepth: algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/rule
+
+.PHONY : maxDepth
+
+# fast build rule for target.
+maxDepth/fast:
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\maxDepth.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/build
+.PHONY : maxDepth/fast
+
+# Convenience name for target.
 algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/rule:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/rule
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/rule
 .PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/rule
 
 # Convenience name for target.
@@ -166,12 +181,12 @@ kthLargest: algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/rule
 
 # fast build rule for target.
 kthLargest/fast:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\kthLargest.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/build
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\kthLargest.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/build
 .PHONY : kthLargest/fast
 
 # Convenience name for target.
 algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/rule:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/rule
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/rule
 .PHONY : algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/rule
 
 # Convenience name for target.
@@ -181,7 +196,7 @@ mirrorTree: algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/rule
 
 # fast build rule for target.
 mirrorTree/fast:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\mirrorTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/build
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\mirrorTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/build
 .PHONY : mirrorTree/fast
 
 isSubTree.obj: isSubTree.cpp.obj
@@ -190,7 +205,7 @@ isSubTree.obj: isSubTree.cpp.obj
 
 # target to build an object file
 isSubTree.cpp.obj:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSubTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/isSubTree.cpp.obj
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSubTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/isSubTree.cpp.obj
 .PHONY : isSubTree.cpp.obj
 
 isSubTree.i: isSubTree.cpp.i
@@ -199,7 +214,7 @@ isSubTree.i: isSubTree.cpp.i
 
 # target to preprocess a source file
 isSubTree.cpp.i:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSubTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/isSubTree.cpp.i
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSubTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/isSubTree.cpp.i
 .PHONY : isSubTree.cpp.i
 
 isSubTree.s: isSubTree.cpp.s
@@ -208,7 +223,7 @@ isSubTree.s: isSubTree.cpp.s
 
 # target to generate assembly for a file
 isSubTree.cpp.s:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSubTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/isSubTree.cpp.s
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSubTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSubTree.dir/isSubTree.cpp.s
 .PHONY : isSubTree.cpp.s
 
 isSymmetric.obj: isSymmetric.cpp.obj
@@ -217,7 +232,7 @@ isSymmetric.obj: isSymmetric.cpp.obj
 
 # target to build an object file
 isSymmetric.cpp.obj:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSymmetric.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/isSymmetric.cpp.obj
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSymmetric.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/isSymmetric.cpp.obj
 .PHONY : isSymmetric.cpp.obj
 
 isSymmetric.i: isSymmetric.cpp.i
@@ -226,7 +241,7 @@ isSymmetric.i: isSymmetric.cpp.i
 
 # target to preprocess a source file
 isSymmetric.cpp.i:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSymmetric.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/isSymmetric.cpp.i
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSymmetric.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/isSymmetric.cpp.i
 .PHONY : isSymmetric.cpp.i
 
 isSymmetric.s: isSymmetric.cpp.s
@@ -235,7 +250,7 @@ isSymmetric.s: isSymmetric.cpp.s
 
 # target to generate assembly for a file
 isSymmetric.cpp.s:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSymmetric.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/isSymmetric.cpp.s
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\isSymmetric.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/isSymmetric.dir/isSymmetric.cpp.s
 .PHONY : isSymmetric.cpp.s
 
 kthLargest.obj: kthLargest.cpp.obj
@@ -244,7 +259,7 @@ kthLargest.obj: kthLargest.cpp.obj
 
 # target to build an object file
 kthLargest.cpp.obj:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\kthLargest.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/kthLargest.cpp.obj
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\kthLargest.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/kthLargest.cpp.obj
 .PHONY : kthLargest.cpp.obj
 
 kthLargest.i: kthLargest.cpp.i
@@ -253,7 +268,7 @@ kthLargest.i: kthLargest.cpp.i
 
 # target to preprocess a source file
 kthLargest.cpp.i:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\kthLargest.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/kthLargest.cpp.i
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\kthLargest.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/kthLargest.cpp.i
 .PHONY : kthLargest.cpp.i
 
 kthLargest.s: kthLargest.cpp.s
@@ -262,8 +277,35 @@ kthLargest.s: kthLargest.cpp.s
 
 # target to generate assembly for a file
 kthLargest.cpp.s:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\kthLargest.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/kthLargest.cpp.s
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\kthLargest.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/kthLargest.dir/kthLargest.cpp.s
 .PHONY : kthLargest.cpp.s
+
+maxDepth.obj: maxDepth.cpp.obj
+
+.PHONY : maxDepth.obj
+
+# target to build an object file
+maxDepth.cpp.obj:
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\maxDepth.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/maxDepth.cpp.obj
+.PHONY : maxDepth.cpp.obj
+
+maxDepth.i: maxDepth.cpp.i
+
+.PHONY : maxDepth.i
+
+# target to preprocess a source file
+maxDepth.cpp.i:
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\maxDepth.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/maxDepth.cpp.i
+.PHONY : maxDepth.cpp.i
+
+maxDepth.s: maxDepth.cpp.s
+
+.PHONY : maxDepth.s
+
+# target to generate assembly for a file
+maxDepth.cpp.s:
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\maxDepth.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/maxDepth.dir/maxDepth.cpp.s
+.PHONY : maxDepth.cpp.s
 
 mirrorTree.obj: mirrorTree.cpp.obj
 
@@ -271,7 +313,7 @@ mirrorTree.obj: mirrorTree.cpp.obj
 
 # target to build an object file
 mirrorTree.cpp.obj:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\mirrorTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/mirrorTree.cpp.obj
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\mirrorTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/mirrorTree.cpp.obj
 .PHONY : mirrorTree.cpp.obj
 
 mirrorTree.i: mirrorTree.cpp.i
@@ -280,7 +322,7 @@ mirrorTree.i: mirrorTree.cpp.i
 
 # target to preprocess a source file
 mirrorTree.cpp.i:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\mirrorTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/mirrorTree.cpp.i
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\mirrorTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/mirrorTree.cpp.i
 .PHONY : mirrorTree.cpp.i
 
 mirrorTree.s: mirrorTree.cpp.s
@@ -289,7 +331,7 @@ mirrorTree.s: mirrorTree.cpp.s
 
 # target to generate assembly for a file
 mirrorTree.cpp.s:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\mirrorTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/mirrorTree.cpp.s
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\mirrorTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/mirrorTree.dir/mirrorTree.cpp.s
 .PHONY : mirrorTree.cpp.s
 
 rebuildTree.obj: rebuildTree.cpp.obj
@@ -298,7 +340,7 @@ rebuildTree.obj: rebuildTree.cpp.obj
 
 # target to build an object file
 rebuildTree.cpp.obj:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\rebuildTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/rebuildTree.cpp.obj
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\rebuildTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/rebuildTree.cpp.obj
 .PHONY : rebuildTree.cpp.obj
 
 rebuildTree.i: rebuildTree.cpp.i
@@ -307,7 +349,7 @@ rebuildTree.i: rebuildTree.cpp.i
 
 # target to preprocess a source file
 rebuildTree.cpp.i:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\rebuildTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/rebuildTree.cpp.i
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\rebuildTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/rebuildTree.cpp.i
 .PHONY : rebuildTree.cpp.i
 
 rebuildTree.s: rebuildTree.cpp.s
@@ -316,7 +358,7 @@ rebuildTree.s: rebuildTree.cpp.s
 
 # target to generate assembly for a file
 rebuildTree.cpp.s:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\rebuildTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/rebuildTree.cpp.s
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(MAKE) -f algorithmPractise\JZOffer\tree\CMakeFiles\rebuildTree.dir\build.make algorithmPractise/JZOffer/tree/CMakeFiles/rebuildTree.dir/rebuildTree.cpp.s
 .PHONY : rebuildTree.cpp.s
 
 # Help Target
@@ -330,6 +372,7 @@ help:
 	@echo ... isSymmetric
 	@echo ... rebuild_cache
 	@echo ... isSubTree
+	@echo ... maxDepth
 	@echo ... kthLargest
 	@echo ... mirrorTree
 	@echo ... isSubTree.obj
@@ -341,6 +384,9 @@ help:
 	@echo ... kthLargest.obj
 	@echo ... kthLargest.i
 	@echo ... kthLargest.s
+	@echo ... maxDepth.obj
+	@echo ... maxDepth.i
+	@echo ... maxDepth.s
 	@echo ... mirrorTree.obj
 	@echo ... mirrorTree.i
 	@echo ... mirrorTree.s
@@ -358,6 +404,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\Projects\Algorithms\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d E:\Cpp_Projects\Algorithms\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

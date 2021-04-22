@@ -1,4 +1,4 @@
-D:\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\Projects\Algorithms
+"D:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\Cpp_Projects\Algorithms
 -- Configuring done
 -- Generating done
--- Build files have been written to: E:/Projects/Algorithms/cmake-build-debug
+-- Build files have been written to: E:/Cpp_Projects/Algorithms/cmake-build-debug

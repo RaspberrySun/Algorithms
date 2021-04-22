@@ -1,4 +1,4 @@
-# Install script for directory: E:/Projects/Algorithms
+# Install script for directory: E:/Cpp_Projects/Algorithms
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/cmake_install.cmake")
+  include("E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Projects/Algorithms/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Cpp_Projects/Algorithms/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

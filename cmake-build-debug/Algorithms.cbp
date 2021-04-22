@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;CMake Files\algorithmPractise\;CMake Files\algorithmPractise\JZOffer\;CMake Files\algorithmPractise\JZOffer\tree\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/Projects/Algorithms/cmake-build-debug"/>
+				<Option working_dir="E:/Cpp_Projects/Algorithms/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Algorithms">
-				<Option output="E:/Projects/Algorithms/cmake-build-debug/Algorithms.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Projects/Algorithms/cmake-build-debug"/>
+				<Option output="E:/Cpp_Projects/Algorithms/cmake-build-debug/Algorithms.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp_Projects/Algorithms/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithms"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithms"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Algorithms/fast">
-				<Option output="E:/Projects/Algorithms/cmake-build-debug/Algorithms.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Projects/Algorithms/cmake-build-debug"/>
+				<Option output="E:/Cpp_Projects/Algorithms/cmake-build-debug/Algorithms.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp_Projects/Algorithms/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,40 +53,40 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithms/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithms/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/Projects/Algorithms/cmake-build-debug"/>
+				<Option working_dir="E:/Cpp_Projects/Algorithms/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/Projects/Algorithms/cmake-build-debug"/>
+				<Option working_dir="E:/Cpp_Projects/Algorithms/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuildTree">
-				<Option output="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/rebuildTree.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
+				<Option output="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/rebuildTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
+					<Add directory="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
@@ -95,20 +95,20 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 rebuildTree"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 rebuildTree"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuildTree/fast">
-				<Option output="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/rebuildTree.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
+				<Option output="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/rebuildTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
+					<Add directory="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
@@ -117,20 +117,20 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 rebuildTree/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 rebuildTree/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="isSymmetric">
-				<Option output="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/isSymmetric.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
+				<Option output="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/isSymmetric.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
+					<Add directory="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
@@ -139,20 +139,20 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 isSymmetric"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 isSymmetric"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="isSymmetric/fast">
-				<Option output="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/isSymmetric.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
+				<Option output="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/isSymmetric.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
+					<Add directory="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
@@ -161,20 +161,20 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 isSymmetric/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 isSymmetric/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="isSubTree">
-				<Option output="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/isSubTree.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
+				<Option output="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/isSubTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
+					<Add directory="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
@@ -183,20 +183,20 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 isSubTree"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 isSubTree"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="isSubTree/fast">
-				<Option output="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/isSubTree.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
+				<Option output="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/isSubTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
+					<Add directory="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
@@ -205,20 +205,64 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 isSubTree/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 isSubTree/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maxDepth">
+				<Option output="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/maxDepth.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 maxDepth"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maxDepth/fast">
+				<Option output="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/maxDepth.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 maxDepth/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="kthLargest">
-				<Option output="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/kthLargest.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
+				<Option output="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/kthLargest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
+					<Add directory="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
@@ -227,20 +271,20 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 kthLargest"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 kthLargest"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="kthLargest/fast">
-				<Option output="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/kthLargest.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
+				<Option output="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/kthLargest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
+					<Add directory="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
@@ -249,20 +293,20 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 kthLargest/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 kthLargest/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mirrorTree">
-				<Option output="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/mirrorTree.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
+				<Option output="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/mirrorTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
+					<Add directory="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
@@ -271,20 +315,20 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 mirrorTree"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 mirrorTree"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mirrorTree/fast">
-				<Option output="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/mirrorTree.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
+				<Option output="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/mirrorTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
+					<Add directory="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/."/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
@@ -293,35 +337,38 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 mirrorTree/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 mirrorTree/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Cpp_Projects/Algorithms/cmake-build-debug/algorithmPractise/JZOffer/tree/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/Projects/Algorithms/algorithmPractise/JZOffer/tree/isSubTree.cpp">
+		<Unit filename="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/isSubTree.cpp">
 			<Option target="isSubTree"/>
 		</Unit>
-		<Unit filename="E:/Projects/Algorithms/algorithmPractise/JZOffer/tree/isSymmetric.cpp">
+		<Unit filename="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/isSymmetric.cpp">
 			<Option target="isSymmetric"/>
 		</Unit>
-		<Unit filename="E:/Projects/Algorithms/algorithmPractise/JZOffer/tree/kthLargest.cpp">
+		<Unit filename="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/kthLargest.cpp">
 			<Option target="kthLargest"/>
 		</Unit>
-		<Unit filename="E:/Projects/Algorithms/algorithmPractise/JZOffer/tree/mirrorTree.cpp">
+		<Unit filename="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/maxDepth.cpp">
+			<Option target="maxDepth"/>
+		</Unit>
+		<Unit filename="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/mirrorTree.cpp">
 			<Option target="mirrorTree"/>
 		</Unit>
-		<Unit filename="E:/Projects/Algorithms/algorithmPractise/JZOffer/tree/rebuildTree.cpp">
+		<Unit filename="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/rebuildTree.cpp">
 			<Option target="rebuildTree"/>
 		</Unit>
-		<Unit filename="E:/Projects/Algorithms/main.cpp">
+		<Unit filename="E:/Cpp_Projects/Algorithms/main.cpp">
 			<Option target="Algorithms"/>
 		</Unit>
-		<Unit filename="E:/Projects/Algorithms/CMakeLists.txt">
+		<Unit filename="E:/Cpp_Projects/Algorithms/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="E:/Projects/Algorithms/algorithmPractise/JZOffer/tree/CMakeLists.txt">
+		<Unit filename="E:/Cpp_Projects/Algorithms/algorithmPractise/JZOffer/tree/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\algorithmPractise\JZOffer\tree\"/>
 		</Unit>
 	</Project>
