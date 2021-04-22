@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\kthLargest.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\kthLargest.dir/objects.a @CMakeFiles\kthLargest.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\kthLargest.dir/objects.a -Wl,--no-whole-archive  -o kthLargest.exe -Wl,--out-implib,libkthLargest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\kthLargest.dir\linklibs.rsp

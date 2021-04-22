@@ -1,3 +1,0 @@
-E:/Self_Projects/algorithmPractise/cmake-build-debug/CMakeFiles/algorithmPractise.dir
-E:/Self_Projects/algorithmPractise/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Self_Projects/algorithmPractise/cmake-build-debug/CMakeFiles/rebuild_cache.dir

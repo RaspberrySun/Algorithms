@@ -20,7 +20,7 @@ struct TreeNode{
 class Solution{
 public:
     TreeNode* mirrorTree(TreeNode* root){
-        if (!root){
+        if (root == nullptr){
             return nullptr;
         }
         if (root){

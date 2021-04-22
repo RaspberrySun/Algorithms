@@ -1,0 +1,4 @@
+D:\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\Projects\Algorithms
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Projects/Algorithms/cmake-build-debug
