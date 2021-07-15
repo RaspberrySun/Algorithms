@@ -10,12 +10,15 @@
 
 #include <vector>
 #include <string>
+#include <algorithm>
 
 using namespace std;
 
 class Solution {
 public:
     vector<string> permutation(string s) {
+        visitor.resize(s.size());
+        sort(s.begin(), s.end());
         string track = "";
         backtrack(track, s);
         return res;
@@ -26,17 +29,19 @@ public:
             res.push_back(track);
             return;
         }
-
         for (int i = 0; i < s.size(); ++i){
-            if (track.find(s[i]) != string::npos){
+            if (visitor[i] || (i > 0 && !visitor[i-1] && s[i-1] == s[i])){
                 continue;
             }
+            visitor[i] = true;
             track.push_back(s[i]);
             backtrack(track, s);
             track.pop_back();
+            visitor[i] = false;
         }
     }
 
 private:
     vector<string> res;
+    vector<bool> visitor;
 };
