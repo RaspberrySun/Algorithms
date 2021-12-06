@@ -3,10 +3,9 @@ project(Algorithms)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Algorithms main.cpp)
-
 ADD_SUBDIRECTORY(algorithmPractise/JZOffer/tree)
 ADD_SUBDIRECTORY(algorithmPractise/JZOffer/dp)
 ADD_SUBDIRECTORY(algorithmPractise/JZOffer/binaryFind)
 ADD_SUBDIRECTORY(algorithmPractise/JZOffer/backtracking)
 ADD_SUBDIRECTORY(algorithmPractise/Day0/preSum)
+ADD_SUBDIRECTORY(algorithmPractise/Day1/pre_sum)
