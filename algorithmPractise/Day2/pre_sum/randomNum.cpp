@@ -11,25 +11,26 @@ using namespace std;
 
 class Solution {
 private:
-    vector<int> acc;
+    vector<int> pre_sum;
 public:
     Solution(vector<int>& w) {
-        acc.resize(w.size(), 0);
+        int len = w.size();
+        vector<int>(len, 0).swap(pre_sum);
         int sum = 0;
-        for (int i = 0; i < w.size(); ++i) {
+        for (int i = 0; i < len; ++i) {
             sum += w[i];
-            acc[i] = sum;
+            pre_sum[i] = sum;                  //计算前缀和
         }
     }
 
     int pickIndex() {
-        int rad = rand() % acc.back() + 1;
+        int rad = rand() % pre_sum.back() + 1; //等概率生成随机数1~sum+1
         int left = 0;
-        int right = acc.size() - 1;
-        while (left <= right) {
+        int right = pre_sum.size() - 1;
+        while (left <= right) {                //二分法
             int mid = left + ((right - left) >> 1);
-            if (rad <= acc[mid]) {
-                if (mid == 0 || rad > acc[mid - 1]) {
+            if (rad <= pre_sum[mid]) {
+                if (mid == 0 || rad > pre_sum[mid - 1]) {
                     return mid;
                 }
                 right = mid - 1;
